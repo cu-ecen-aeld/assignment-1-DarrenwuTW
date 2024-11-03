@@ -5,7 +5,7 @@ if [ "$1" == "--help" ]; then
   echo " - <directory>: Path to the directory."
   echo " - <content_string>: Text string to for files."
   echo "Example: ./writer.sh /tmp/aesd/assignment1 linux"
-  exit 0
+  exit 1
 fi
 
 if [ "$#" -ne 2 ]; then
